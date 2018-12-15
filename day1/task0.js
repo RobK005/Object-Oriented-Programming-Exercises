@@ -10,9 +10,9 @@ var person = {
     say: hello,
 }
 
-console.log(person.say()) //?
+console.log(person.say()) //?????
 
-console.log('//------------------')
+console.log('//---------------------------------------')
 
 function returnX () {
     return this.x;
@@ -25,3 +25,5 @@ console.log(newReturnX())
 
 var boundReturnX = newReturnX.bind(obj)
 console.log(boundReturnX())
+
+console.log('//---------------------------------------')
