@@ -1,16 +1,13 @@
+this.name = "Ala"
+
 function hello() {
-    //console.log('hello world')
-    console.log(this)
+    console.log(this.name + " mówi cześć!");
 }
 
-this.hello()
+var person = {name: "Zenek", say: hello}
 
-var person = {
-    name: 'Zenek',
-    say: hello,
-}
-
-console.log(person.say()) //?????
+hello() // Ala mówi cześć!
+person.say() // Zenek mówi cześć!
 
 console.log('//---------------------------------------')
 

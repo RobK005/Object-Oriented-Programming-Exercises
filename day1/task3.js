@@ -21,6 +21,8 @@ function catFactoryBasic(name) { //funkcja tworząca objekt, faktory function
     }
 }
 
+//task4
+
 function catFactory(name, sound) { //funkcja tworząca objekt, faktory function
     return {
         name: name,
