@@ -5,13 +5,13 @@ var Game = (function() {
         this.deckOfCards = [{
             id: 0,
             front: 'A',
-            complete: false,
+            complete: true,
             visible: false
         }, {
             id: 1,
             front: 'A',
             complete: false,
-            visible: false
+            visible: true
         }, {
             id: 2,
             front: 'B',
@@ -46,6 +46,14 @@ var Game = (function() {
             cardElement.innerHTML = card.front //przepisuje wartosc z front do HTML
 
             cardElement.classList.add('card') //dodanie klasy card do naszego div
+
+            if (!card.visible && !card.complete) {
+                cardElement.classList.add('is-invisible')
+            }
+
+            if (!card.complete) {
+                cardElement.classList.add('is-complete')
+            }
 
             this.gameContainer.appendChild(cardElement) // dodanie cardElement do naszego kontenera
 
