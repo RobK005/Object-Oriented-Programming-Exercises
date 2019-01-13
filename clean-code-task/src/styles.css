@@ -1,8 +1,16 @@
+.button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button:hover {
+  opacity: 0.5;
+  transition: all 1s;
+}
+
 #przycisk {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
     background: green;
     border: 2px solid green;
     border-radius: 5px;
@@ -11,16 +19,7 @@
     transition: all 1s;
   }
   
-  #przycisk:hover {
-    opacity: 0.5;
-    transition: all 1s;
-  }
-  
   #przycisk1 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
     background: blue;
     border: 2px solid blue;
     border-radius: 10px;
