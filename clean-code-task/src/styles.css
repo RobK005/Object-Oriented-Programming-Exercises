@@ -1,0 +1,43 @@
+#przycisk {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: all 1s;
+  }
+  
+  #przycisk:hover {
+    opacity: 0.5;
+    transition: all 1s;
+  }
+  
+  #przycisk1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #przycisk2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  
